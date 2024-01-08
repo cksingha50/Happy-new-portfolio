@@ -87,6 +87,9 @@ nav{
    max-width: 1140px;
    text-align: center;
  }
+ main section{
+   margin-top: 130px;
+ }
 
  .section-title{
    color: var(--Dark-01, #181818);
@@ -104,7 +107,23 @@ nav{
    margin-left: 200px;
    
  }
-
+ .section-description{
+   color: var(--Dark-03, #757575);
+   text-align: center;
+   font-family: Open Sans;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 30px; /* 166.667% */
+ }
+ .info-description{
+   color: var(--Dark-02, #474747);
+   font-family: Open Sans;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 30px;
+ }
  .about-info-container{
    display: flex;
    justify-content: space-around;
@@ -112,4 +131,60 @@ nav{
 
  .about-info{
    text-align: center;
+ }
+ .info-title{
+   font-size: 14px;
+   color: var(--Dark-03, #757575);
+   font-weight: 100px;
+   margin-bottom: 0;
+ }
+
+ /* skills related styles */
+
+.what-i-do{
+   margin-left: 200px;
+}
+ .what-i-do-description{
+   width: 909px;
+   color: #757575;
+   text-align: center;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 30px; /* 166.667% */
+ }
+
+ .skills-container{
+   display: flex;
+   gap: 24px;
+   max-width: 1140px;
+   align-items: center;
+   margin-left: 200px;
+ }
+ .skill{
+   padding: 30px;
+   border-radius: 5px;
+   background: #FFF;
+   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+   text-align: left;
+   width: auto;
+   height: auto;
+   margin-top: 50px;
+   
+ }
+
+ .skill-title{
+   color: var(--Dark-01, #181818);
+   text-align: left;
+   font-size: 18px;
+   font-weight: 700;
+ }
+ .skill-descripiton{
+   color: var(--Dark-03, #757575);
+   font-family: Open Sans;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 28px; /* 175% */
+   justify-content: center;
+
  }
